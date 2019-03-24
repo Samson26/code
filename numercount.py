@@ -1,8 +1,18 @@
-a=input()
-l=len(a)
-print (l)
-count=0
-for i in range(0,l):
-    if a[i].isnumeric():
-        count+=1
-print (count)
+#include<stdio.h>
+#include<ctype.h>
+int main()
+{
+int i; 
+ int no=0;
+char s[100];
+scanf("%s",s);
+for(i=0;s[i]!='\0';i++)
+{
+	
+if(isdigit(s[i]))
+{
+no++;
+}
+}
+printf("count: %d ",no);
+}
