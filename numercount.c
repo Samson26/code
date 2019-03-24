@@ -14,5 +14,5 @@ if(isdigit(s[i]))
 no++;
 }
 }
-printf("count: %d ",no);
+printf(no);
 }
