@@ -1,5 +1,5 @@
-a=int(input())
-if(a%2==0):
-    print(a)
+nu=int(input())
+if(nu%2==0):
+    print(nu)
 else:
-    print(a-1)
+    print(nu-1)
